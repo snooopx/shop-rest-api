@@ -6,10 +6,11 @@ laravel 5.7
 
 ## Installation
 
-clone repo,
-run composer install
-update .env file with your DB credentials
-run php artisan migrate
+clone repo,<br >
+run composer install,<br >
+update .env file with your DB credentials,<br >
+run php artisan migrate<br >
+test with bellow endpoints in your preferred tool
 
 ## DB Tables
 products <br >
@@ -22,12 +23,12 @@ gallery<br >
 ## API
 ### Size
 #### create
-(POST)<api.loc>/api/size
-params: 
+(POST)<api.loc>/api/size<br >
+params: <br >
     name
 #### update
-(PUT)<api.loc>/api/size/[id]
-params: 
+(PUT)<api.loc>/api/size/[id]<br >
+params: <br >
     name
 #### delete
 (DELETE)<api.loc>/api/size/[id]
@@ -38,13 +39,13 @@ params:
 
 ### Brands
 #### create
-(POST)<api.loc>/api/brands
-params: 
+(POST)<api.loc>/api/brands<br >
+params: <br >
     name<br >
     website(optional)
 ####update
-(PUT)<api.loc>/api/brands/[id]
-params: 
+(PUT)<api.loc>/api/brands/[id]<br >
+params: <br >
     name<br >
     website(optional)
 #### delete
@@ -56,13 +57,13 @@ params:
 
 ### Categories
 #### create
-(POST)<api.loc>/api/category
-params: 
+(POST)<api.loc>/api/category<br >
+params: <br >
     name<br >
     parent_id(optional)
 #### update
-(PUT)<api.loc>/api/category/[id]
-params: 
+(PUT)<api.loc>/api/category/[id]<br >
+params: <br >
     name<br >
     parent_id(optional)
 #### delete
@@ -75,8 +76,8 @@ params:
 
 ### Products
 #### create
-(POST)<api.loc>/api/product
-params: 
+(POST)<api.loc>/api/product<br >
+params: <br >
     upc<br >
     name<br >
     brand_id<br >
@@ -86,16 +87,16 @@ params:
     description(optional)<br >
     count(optional)<br >
 #### update
-(PUT)<api.loc>/api/product/[id]
-params: 
-    upc
-        name<br >
-        brand_id<br >
-        size_id<br >
-        category_id<br >
-        sub_cat_id(optional)<br >
-        description(optional)<br >
-        count(optional)<br >
+(PUT)<api.loc>/api/product/[id]<br >
+params: <br >
+    upc<br >
+    name<br >
+    brand_id<br >
+    size_id<br >
+    category_id<br >
+    sub_cat_id(optional)<br >
+    description(optional)<br >
+    count(optional)<br >
 #### delete
 (DELETE)<api.loc>/api/product/[id]
 #### read
