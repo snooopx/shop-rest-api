@@ -12,12 +12,12 @@ update .env file with your DB credentials
 run php artisan migrate
 
 ## DB Tables
-products
-brands
-categories
-product_categories
-sizes
-gallery
+products <br >
+brands<br >
+categories<br >
+product_categories<br >
+sizes<br >
+gallery<br >
 
 ## API
 ### Size
@@ -40,12 +40,12 @@ params:
 #### create
 (POST)<api.loc>/api/brands
 params: 
-    name
+    name<br >
     website(optional)
 ####update
 (PUT)<api.loc>/api/brands/[id]
 params: 
-    name
+    name<br >
     website(optional)
 #### delete
 (DELETE)<api.loc>/api/brands/[id]
@@ -58,12 +58,12 @@ params:
 #### create
 (POST)<api.loc>/api/category
 params: 
-    name
+    name<br >
     parent_id(optional)
 #### update
 (PUT)<api.loc>/api/category/[id]
 params: 
-    name
+    name<br >
     parent_id(optional)
 #### delete
 (DELETE)<api.loc>/api/category/[id]
@@ -77,25 +77,25 @@ params:
 #### create
 (POST)<api.loc>/api/product
 params: 
-    upc
-    name
-    brand_id
-    size_id
-    category_id
-    sub_cat_id(optional)
-    description(optional)
-    count(optional)
+    upc<br >
+    name<br >
+    brand_id<br >
+    size_id<br >
+    category_id<br >
+    sub_cat_id(optional)<br >
+    description(optional)<br >
+    count(optional)<br >
 #### update
 (PUT)<api.loc>/api/product/[id]
 params: 
     upc
-        name
-        brand_id
-        size_id
-        category_id
-        sub_cat_id(optional)
-        description(optional)
-        count(optional)
+        name<br >
+        brand_id<br >
+        size_id<br >
+        category_id<br >
+        sub_cat_id(optional)<br >
+        description(optional)<br >
+        count(optional)<br >
 #### delete
 (DELETE)<api.loc>/api/product/[id]
 #### read
