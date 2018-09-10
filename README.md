@@ -1,17 +1,17 @@
 # shop-rest-api
 
-##Requirements
+## Requirements
 php 7.2
 laravel 5.7
 
-##Installation
+## Installation
 
 clone repo,
 run composer install
 update .env file with your DB credentials
 run php artisan migrate
 
-##DB Tables
+## DB Tables
 products
 brands
 categories
@@ -19,25 +19,25 @@ product_categories
 sizes
 gallery
 
-##API
-###Size
-####create
+## API
+### Size
+#### create
 (POST)<api.loc>/api/size
 params: 
     name
-####update
+#### update
 (PUT)<api.loc>/api/size/[id]
 params: 
     name
-####delete
+#### delete
 (DELETE)<api.loc>/api/size/[id]
-####read
+#### read
 (GET)<api.loc>/api/size/[id]
 #### read all
 (GET)<api.loc>/api/size
 
-###Brands
-####create
+### Brands
+#### create
 (POST)<api.loc>/api/brands
 params: 
     name
@@ -47,34 +47,34 @@ params:
 params: 
     name
     website(optional)
-####delete
+#### delete
 (DELETE)<api.loc>/api/brands/[id]
-####read
+#### read
 (GET)<api.loc>/api/brands/[id]
 #### read all
 (GET)<api.loc>/api/brands
 
-###Categories
-####create
+### Categories
+#### create
 (POST)<api.loc>/api/category
 params: 
     name
     parent_id(optional)
-####update
+#### update
 (PUT)<api.loc>/api/category/[id]
 params: 
     name
     parent_id(optional)
-####delete
+#### delete
 (DELETE)<api.loc>/api/category/[id]
-####read
+#### read
 (GET)<api.loc>/api/category/[id]
 #### read all
 (GET)<api.loc>/api/category
 
 
-###Products
-####create
+### Products
+#### create
 (POST)<api.loc>/api/product
 params: 
     upc
@@ -85,7 +85,7 @@ params:
     sub_cat_id(optional)
     description(optional)
     count(optional)
-####update
+#### update
 (PUT)<api.loc>/api/product/[id]
 params: 
     upc
@@ -96,9 +96,9 @@ params:
         sub_cat_id(optional)
         description(optional)
         count(optional)
-####delete
+#### delete
 (DELETE)<api.loc>/api/product/[id]
-####read
+#### read
 (GET)<api.loc>/api/product/[id]
 #### read all
 (GET)<api.loc>/api/product
