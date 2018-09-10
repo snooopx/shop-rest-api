@@ -43,7 +43,7 @@ params: <br >
 params: <br >
     name<br >
     website(optional)
-####update
+#### update
 (PUT)<api.loc>/api/brands/[id]<br >
 params: <br >
     name<br >
