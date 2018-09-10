@@ -1,8 +1,9 @@
 # shop-rest-api
 
 ## Requirements
-php 7.2
-laravel 5.7
+php 7.2<br >
+laravel 5.7<br >
+PostgreSQL 10.5<br >
 
 ## Installation
 
