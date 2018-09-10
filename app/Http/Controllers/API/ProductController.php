@@ -50,10 +50,6 @@ class ProductController extends Controller
         $product->brand_id = $request->brand_id;
         $product->size_id = $request->size_id;
 
-        if($request->has('description')) {
-            $product->description = $request->description;
-        }
-
         if($request->has('count')) {
             $product->count = $request->count;
         }
